@@ -28,7 +28,7 @@ namespace SalesWebMVC2.Controllers
             ViewData["Message"] = "Sale Web MVC App from c# Course";
             ViewData["Professor"] = "Sandra Silva";
             
-                return View();
+                return View(); 
         }
 
         public IActionResult Contact()
@@ -45,7 +45,7 @@ namespace SalesWebMVC2.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new SalesWebMVC2.Models.ViewModels.ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
