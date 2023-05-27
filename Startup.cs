@@ -28,7 +28,8 @@ namespace SalesWebMVC2
             services.AddControllersWithViews();
 
             services.AddDbContext<SalesWebMVC2Context>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("SalesWebMVC2Context")));
+                    options.UseMySql(Configuration.GetConnectionString("SalesWebMVC2Context"), builder =>
+                        builder.MigrationsAssembly("SalesWebMVC2")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
