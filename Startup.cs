@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using SalesWebMVC2.Data;
 
 namespace SalesWebMVC2
 {
@@ -24,6 +26,9 @@ namespace SalesWebMVC2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<SalesWebMVC2Context>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("SalesWebMVC2Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
