@@ -20,8 +20,8 @@ namespace SalesWebMVC2.Data
         public void Seed()
         {
             if (_context.Department.Any() ||
-                _context.SellerMy.Any() ||
-                _context.SalesRecord.Any())
+                 _context.Seller.Any() ||
+                 _context.SalesRecord.Any())
             {
                 return; // DB has been seeded
             }
@@ -70,7 +70,7 @@ namespace SalesWebMVC2.Data
             SalesRecord r30 = new SalesRecord(30, new DateTime(2018, 10, 12), 5000.0, SaleStatus.Billed, s2);
 
             _context.Department.AddRange(d1, d2, d3, d4);
-            _context.SellerMy.AddRange(s1, s2, s3, s4, s5, s6);
+            _context.Seller.AddRange(s1, s2, s3, s4, s5, s6);
             _context.SalesRecord.AddRange(
                            r1, r2, r3, r4, r5, r6, r7, r8, r9, r10,
                            r11, r12, r13, r14, r15, r16, r17, r18, r19, r20,
