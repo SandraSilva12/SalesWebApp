@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "itxXMRMbZV1yJa77xqOe+5FCbISDp8MU10UMryl3zss=",
+  "Hash": "hG6E3ltc/MGBs/xi9gYQAFS6dH0iZqofg67ufn9ZUFk=",
   "Source": "SalesWebMVC2",
   "BasePath": "_content/SalesWebMVC2",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "SourceId": "SalesWebMVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\",
+      "BasePath": "_content/SalesWebMVC2",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flatly.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css"
     },
     {
       "Identity": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

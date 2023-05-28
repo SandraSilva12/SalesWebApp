@@ -28,16 +28,19 @@ namespace SalesWebMVC2
             services.AddControllersWithViews();
 
             services.AddDbContext<SalesWebMVC2Context>(options =>
-                    options.UseMySql(Configuration.GetConnectionString("SalesWebMVC2Context"), builder =>
-                        builder.MigrationsAssembly("SalesWebMVC2")));
+                    options.UseSqlServer(Configuration.GetConnectionString("SalesWebMVC2Context")));
+
+            services.AddScoped<SeedingServices>(); 
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, SeedingServices seedingServices)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                seedingServices.Seed();
             }
             else
             {
