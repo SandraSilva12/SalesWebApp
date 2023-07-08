@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMVC2.Data;
+using SalesWebMVC2.Services;
 
 namespace SalesWebMVC2
 {
@@ -27,11 +28,12 @@ namespace SalesWebMVC2
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<SalesWebMVC2Context>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("SalesWebMVC2Context")));
+            //services.AddDbContext<SalesWebMVC2Context>(options =>options.UseSqlServer(Configuration.GetConnectionString("SalesWebMVC2Context")));
+            services.AddDbContext<SalesWebMVC2Context>(options => options.UseMySql(Configuration.GetConnectionString("SalesWebMVC2Context"), new MySqlServerVersion(new Version())));
 
-            services.AddScoped<SeedingServices>(); 
-            
+            services.AddScoped<SeedingServices>();
+            services.AddScoped<SellerService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
