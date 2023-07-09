@@ -33,6 +33,7 @@ namespace SalesWebMVC2
 
             services.AddScoped<SeedingServices>();
             services.AddScoped<SellerService>();
+            services.AddScoped<DepartmentService>();
 
         }
 
