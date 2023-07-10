@@ -2,6 +2,7 @@
 using SalesWebMVC2.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace SalesWebMVC2.Services
 {
@@ -25,12 +26,12 @@ namespace SalesWebMVC2.Services
             _context.SaveChanges();
         }
 
-        public Seller FindByID(int Id)
+        public Seller FindById(int Id)
         {
-            return _context.Seller.FirstOrDefault(obj => obj.Id == Id);
+            return _context.Seller.Include(obj => obj.Department).FirstOrDefault(obj => obj.Id == Id);
         }
 
-        public void remove(int id)
+        public void Remove(int id)
         {
             var obj = _context.Seller.Find(id);
             _context.Seller.Remove(obj);
