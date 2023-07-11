@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[6.10.9, )"
             },
+            "OpenXmlPowerTools": {
+              "target": "Package",
+              "version": "[4.5.3.2, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -83,6 +87,10 @@
             "Pomelo.EntityFrameworkCore.MySql.Json.Microsoft": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "SolrNetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

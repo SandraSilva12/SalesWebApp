@@ -1,7 +1,14 @@
-﻿using SalesWebMVC2.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SalesWebMVC2.Data;
 using SalesWebMVC2.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System;
+using System.Threading.Tasks;
+using SolrNetCore.Utils;
+using OpenXmlPowerTools;
+using System.Diagnostics;
+
 
 namespace SalesWebMVC2.Services
 {
@@ -14,9 +21,9 @@ namespace SalesWebMVC2.Services
             _context = context;
         }
 
-        public List<Department> FindAll()
+        public async Task<List<Department>> FindAllAsync()
         {
-            return _context.Department.OrderBy(x => x.Name).ToList();
+            return await _context.Department.OrderBy(x => x.Name).ToListAsync();
 
         }
 
