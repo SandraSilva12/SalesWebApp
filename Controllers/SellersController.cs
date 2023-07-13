@@ -101,7 +101,7 @@ namespace SalesWebMVC2.Controllers
 			return View(obj);
 		}
 
-		public async <IActionResult> Edit(int? id)
+		public async Task<IActionResult> Edit(int? id)
 		{
 			if (id == null)
 			{

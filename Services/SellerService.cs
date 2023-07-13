@@ -32,7 +32,7 @@ namespace SalesWebMVC2.Services
 			await _context.SaveChangesAsync();
 		}
 
-		public async Task<Seller> FindByIdAsync(int Id)
+		public async Task<Seller> FindByIdAsync(int id)
 		{
 			return await _context.Seller.Include(obj => obj.Department).FirstOrDefaultAsync(obj => obj.Id == id);
 		}

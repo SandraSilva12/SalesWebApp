@@ -258,3 +258,10 @@ C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMV
 C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\obj\Debug\net6.0\EFCoreMySqlJsonMicrosoft.cs
 C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\bin\Debug\net6.0\CoreCompat.Microsoft.Practices.ServiceLocation.dll
+C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\bin\Debug\net6.0\HttpWebAdaptersCore.dll
+C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\bin\Debug\net6.0\OpenXmlPowerTools.dll
+C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\bin\Debug\net6.0\SolrNetCore.dll
+C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\Asus\OneDrive\Área de Trabalho\Curso_Programação\Projetos\SalesWebMVC2\SalesWebMVC2\bin\Debug\net6.0\System.Management.Automation.dll
