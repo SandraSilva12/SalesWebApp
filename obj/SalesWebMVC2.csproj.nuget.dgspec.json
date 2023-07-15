@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FakeXrmEasy.Core.v9": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -64,9 +68,17 @@
               "target": "Package",
               "version": "[6.0.16, )"
             },
+            "Microsoft.Restier.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "MyNoSqlServer.DataReader": {
+              "target": "Package",
+              "version": "[1.8.13, )"
             },
             "MySql.Data": {
               "target": "Package",

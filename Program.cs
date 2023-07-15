@@ -6,7 +6,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-                            
+using System.IO;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+
 namespace SalesWebMVC2
 {
     public class Program

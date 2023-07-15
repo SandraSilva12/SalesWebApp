@@ -28,7 +28,7 @@ namespace SalesWebMVC2.Controllers
         // GET: Departments/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Department == null)
+            if (id == null)
             {
                 return NotFound();
             }
@@ -119,7 +119,7 @@ namespace SalesWebMVC2.Controllers
         // GET: Departments/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Department == null)
+            if (id == null)
             {
                 return NotFound();
             }
@@ -139,16 +139,8 @@ namespace SalesWebMVC2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Department == null)
-            {
-                return Problem("Entity set 'SalesWebMVC2Context.Department'  is null.");
-            }
             var department = await _context.Department.FindAsync(id);
-            if (department != null)
-            {
-                _context.Department.Remove(department);
-            }
-            
+            _context.Department.Remove(department);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

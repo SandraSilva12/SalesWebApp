@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SalesWebMVC2.Models;
+using SalesWebMVC2.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -25,7 +25,7 @@ namespace SalesWebMVC2.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Sale Web MVC App from c# Course";
+            ViewData["Message"] = "Sale Web MVC App from English Course";
             ViewData["Professor"] = "Sandra Silva";
             
                 return View(); 
@@ -33,6 +33,7 @@ namespace SalesWebMVC2.Controllers
 
         public IActionResult Contact()
         {
+            ViewData["Message"] = "Your contact page.";
 
             return View();
         }
