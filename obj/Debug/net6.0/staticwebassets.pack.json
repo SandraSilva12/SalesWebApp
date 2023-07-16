@@ -193,8 +193,24 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-cerulean.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-cerulean.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-cyborg.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-cyborg.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-dark.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-dark.css"
+    },
+    {
       "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly5.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-flatly5.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-litera.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-litera.css"
     },
     {
       "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-lux5.css",
@@ -205,8 +221,28 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-materia.css"
     },
     {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-pulse.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-pulse.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-sandstone.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-sandstone.css"
+    },
+    {
       "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-simplex.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-simplex.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-spacelab.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-spacelab.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-vapor.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-vapor.css"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-zephyr.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-zephyr.css"
     },
     {
       "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -215,6 +251,10 @@
     {
       "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-Cyborg.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min-Cyborg.css"
     },
     {
       "Id": "C:\\Users\\Asus\\OneDrive\\Área de Trabalho\\Curso_Programação\\Projetos\\SalesWebMVC2\\SalesWebMVC2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min-readable.css",
